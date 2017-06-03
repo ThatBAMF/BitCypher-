@@ -9,7 +9,8 @@ Then you can use the scripts with passed information as arguments via cmd:   htt
 For those that are inexperienced, we suggest you get secure web hosting and use the .index we provide.  
   
 # Hosting Usage  
-After uploading it to your hosted 
+After uploading it to your server, simply run 'setup.php' and add your details, then delete 'setup.php' and have fun!  
+You can use 'manage.php' to change settings, afterward, but it will require you to retain the encryption details from setup.
 
 # How does it work?  
 This is both a wallet solution and tumbler, built to function together; rather than trying to simply pass bitcoins through multiple addresses and then send them to a single location (making it easier to see where they came from) --- our tumbling works by taking timed steps and phases to split the coins into multiple addresses within the wallet. When you send coins from your account to another address, it uses them at random to send the specified amount and network fee. Setting a higher network fee for faster processing is also an option.
